@@ -16,7 +16,6 @@ int main(){
 
         Suffix[i] = Suffix[i+1] + arr[i];
 
-
     }
     
     //Print the suffix
@@ -24,7 +23,6 @@ int main(){
     for(int x :Suffix){
         cout<< x <<"\t";
     }
-
 
     return 0;
 }
